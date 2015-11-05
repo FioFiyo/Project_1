@@ -13,10 +13,19 @@
 
 ActiveRecord::Schema.define(version: 1) do
 
-  create_table "profiles", force: :cascade do |t|
-    t.integer  "age"
-    t.text     "tags"
-    t.date     "latestpost"
+  create_table "comments", force: :cascade do |t|
+    t.text     "body"
+    t.string   "title"
+    t.integer  "user_id"
+    t.integer  "post_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "posts", force: :cascade do |t|
+    t.text     "post"
+    t.text     "repost"
+    t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -26,6 +35,8 @@ ActiveRecord::Schema.define(version: 1) do
     t.string   "email"
     t.string   "password"
     t.text     "description"
+    t.integer  "age"
+    t.text     "tags"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
