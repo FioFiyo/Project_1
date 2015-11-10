@@ -27,6 +27,9 @@ class CreateTables < ActiveRecord::Migration
       t.timestamps
     end
 
+    create_table :repost do |t|
+      t.references :user
+      
 
   end
 

@@ -1,0 +1,111 @@
+/*Use pseudo class selectors for link, visited, hover*/
+body {
+  background-image: url(http://www.desktop-image.com/wp-content/uploads/2014/06/skateboarding-background1.jpg);
+  background-position: left;
+  border:none;
+
+}
+
+a {
+text-decoration: none;
+color:white;
+hover: transparent;
+
+}
+.container {
+background-color: ;
+width:100%;
+border:none;
+font-family: Vollkorn, Times;
+font-weight: 700;
+;
+
+
+}
+.box {
+  margin-right:300px ;
+  margin-left: 300px;
+  border-top-style: outset;
+  border-color: white;
+  text-align: center;
+
+}
+.input {
+  font-size: 300%;
+  display:block;
+  text-align: center;
+  
+}
+
+
+#picture {
+  text-align: center;
+  display: block;
+  margin-right:auto;
+  margin-left: auto;
+
+}
+div {
+  /*border: 1px solid #B6B6B4;*/
+  margin-right: 300px;
+  margin-left: 300px;
+  margin-top: -10px;
+  border-top: none;
+  text-align: center;
+
+}
+
+h2 {
+  font-family: Vollkorn, serif;
+  font-size: 70px;
+  text-align: Center;
+  border-radius:100%;
+  color:#FDD017;
+  text-decoration: blink;
+  margin-top: 150px;
+
+}
+
+div>h3 {
+  color:#BCC6CC;
+  background-color: black;
+  display: block; 
+  border-radius: 100%;
+  margin-right: 20%;
+  margin-left: 20%;
+  /*if i wanted rounder borders border-radius: px;*/
+}
+body p{
+  text-align: center;
+  font-size: 19px;
+  margin-top: -15px;
+  color:white;
+}
+
+.row {
+ margin-top: 10px;
+ border:none;
+ text-align: auto;
+}
+
+div>label {
+  margin-left: relative;
+  
+}
+.btn {
+  margin-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.login {
+margin-left: 86%;
+margin-top: -1px;
+border-color: white;
+padding-left: -60px;
+padding-right: -10px;
+
+}
+
+
+/*try fixed positioning for navigation bars: fixed, absolute,relative,*/
